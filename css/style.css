@@ -726,12 +726,16 @@
 
 @media screen and (max-width: 714px) {
   .about-main-container.tablet.mobile {
-    height: 2100px;
+    height: 1900px;
     width: 100%;
     background: #40649e;
     display: grid;
     grid-template-columns: 13vw 74vw 13vw;
-    grid-template-rows: 1% 7% 2.5% 30% 2% 1fr;
+    grid-template-rows: 1% 7% 2.5% 30% 4% 1fr;
+  }
+
+  #one-upper {
+    margin-top: 70px;
   }
 
   .about-two-box-wrapper.final {
@@ -742,10 +746,22 @@
     align-items: center;
     justify-content: center;
     margin-top: 0;
+    min-height: 520px;
+    
+  }
+
+  #safe-text {
+    margin-top: 15px;
+  }
+
+  #two-box-wrapper {
+    margin-bottom:  200px;
+    padding-top: 0;
   }
 
   .about-lower-container-text.mobile {
     padding-top: 0;
+    /* margin-top: 25px; */
   }
 
 
@@ -1337,7 +1353,7 @@
 
     grid-template-columns: 5vw 90vw 5vw;
     grid-template-rows: 2% 5% 1% 1fr 1fr 1fr 1fr;
-    height: 1750px;
+    height: 1350px;
 
   } 
 
@@ -1408,28 +1424,28 @@
     grid-row: 2/3; 
     grid-column:4/5 ;
     width: 95%;
-    min-height: 350px;
+    max-height: 250px;
   }
 
   .roadmap-container-two.mobile {
     grid-row: 3/4; 
     grid-column:4/5 ;
     width: 95%;
-    min-height: 350px;
+    max-height: 270px;
   }
 
   .roadmap-container-three.mobile {
     grid-row: 4/5; 
     grid-column:4/5 ;
     width: 95%;
-    min-height: 350px;
+    max-height: 300px;
   }
 
   .roadmap-container-four.mobile {
     grid-row: 5/6; 
     grid-column:4/5 ;
     width: 95%;
-    min-height: 350px;
+    max-height: 270px;
   }
 
 
@@ -1631,6 +1647,9 @@
   justify-content: center;
 }
 
+#text-five {
+  padding-top: 25px;
+}
 
 .roadmap-container-text-five {
   grid-column: 2/3;
@@ -1992,7 +2011,7 @@
   .presale-container-one.mobile {
     height: 310px;
     width: 100%;
-    max-width: 650px;
+    min-width: 280px;
     border: 6px solid #F0CD4F;
     border-radius: 45px;
     margin-right: 0;

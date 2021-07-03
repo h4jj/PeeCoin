@@ -726,7 +726,7 @@
 
 @media screen and (max-width: 714px) {
   .about-main-container.tablet.mobile {
-    height: 1900px;
+    height: 2000px;
     width: 100%;
     background: #40649e;
     display: grid;
@@ -735,7 +735,7 @@
   }
 
   #one-upper {
-    margin-top: 70px;
+    margin-top: 20px;
   }
 
   .about-two-box-wrapper.final {
@@ -746,8 +746,19 @@
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    min-height: 520px;
-    
+    min-height: 520px;    
+  }
+  
+  #prop {
+    margin-top: 10px;
+  }
+
+  #user {
+    margin-top: 30px;
+  }
+
+  #specialone {
+    margin-top: 50px;
   }
 
   #safe-text {
@@ -770,6 +781,7 @@
   }
 
   .about-mid-container.mobile {
+    margin-top: 100px;
     grid-row: 4/5;
     grid-column: 2/3;
   }

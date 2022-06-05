@@ -1,7 +1,7 @@
 # PeeCoin
 
 ## Website URL
-www.PeeFinance.com
+www.peefinance.netlify.app
 
 ## Use Case
 $PEE Token main platform 
